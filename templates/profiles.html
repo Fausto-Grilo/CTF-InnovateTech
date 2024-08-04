@@ -1,0 +1,7 @@
+{% block content %}
+    <h1>User Profiles</h1>
+    <ul>
+        <li><strong>Admin:</strong> <script>alert('XSS Vulnerability');</script></li>
+        <li><strong>Guest:</strong> {{ profile }}</li>
+    </ul>
+{% endblock %}

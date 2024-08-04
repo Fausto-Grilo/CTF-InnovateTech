@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Incident Report</h1>
+    <form method="post">
+        <textarea name="report" class="form-control" placeholder="Describe all vulnerabilities found"></textarea>
+        <button type="submit" class="btn btn-primary mt-2">Submit Report</button>
+    </form>
+{% endblock %}
